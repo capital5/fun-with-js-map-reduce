@@ -9,12 +9,12 @@ So, I'll be coming at this TDD style in tutorial format.
 ## Getting Started
 To map-reduce a set of data is to apply some operation to each data item in the set and then apply another operation to reduce the data set to a single result.
 
-As it turns out a perfect example of where to apply such a method exists when converting a hexidecmial number to a decimal number.
+As it turns out a perfect example of where to apply such a method exists when converting a hexadecmial number to a decimal number.
 
 **An example:**
-Let's say we have the hexideimcal number `0xBEEF`. In order to convert this into the decimal number `48879` we need to apply the following simple algorithm:
+Let's say we have the hexadeimcal number `0xBEEF`. In order to convert this into the decimal number `48879` we need to apply the following simple algorithm:
 
-Hexidecimal numbers can be validated with this regex: `/^[0-9A-Fa-f]+$/g`
+Hexadecimal numbers can be validated with this regex: `/^[0-9A-Fa-f]+$/g`
 
 1. For each digit in the sequence we must 
 2. translate the digit into the decimal version
